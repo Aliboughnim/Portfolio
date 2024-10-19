@@ -1,0 +1,627 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio Ali Boughnim</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-style.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css'%}" />
+    <link rel="stylesheet" href="{% static 'assets/css/lightbox.css' %}" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="{% static 'assets/images/ali.jpg' %}" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Ali Boughnim</h4>
+              <span>Profil actuariat-Data en Msc 2 Management des projets d'innovation et entrepreneuriat</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Éducation</a></li>
+                <li><a href="#section2">Compétences</a></li>
+                <li><a href="#section3">Travaux</a></li>
+                <li><a href="#section4">Contactez-moi</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://www.facebook.com/ali.boughnim.99/"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ali-boughnim/"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Parcours académique</h2>
+            <div class="line-dec"></div>
+              <span>Spécialiste en Actuariat et Data, actuellement en Master de Management des projets d’innovation et entrepreneuriat. Je recherche une alternance en gestion de projet Data, Actuariat ou Finance.</span>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="left-text">
+                  <h4>Msc 2 Management des Projets d'Innovation et Entrepreneuriat    24-25</h4>
+                  <p>
+                    Je viens d'intégrer ce parcours, un programme conçu pour développer des compétences 
+                    en <span style="color: red;">leadership et innovation</span> dans la gestion de projets 
+                    dynamiques et transformateurs. Ce master me permettra d'acquérir une approche stratégique 
+                    pour favoriser l'innovation et l'entrepreneuriat dans divers secteurs, améliorant ainsi
+                    ma capacité à <span style="color: red;">gérer des projets complexes de la conception 
+                    à la mise en œuvre</span>.
+                  </p>  
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="right-image" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                  <a href="https://www.iriig.com/" target="_blank">
+                  <img src="{% static 'assets/images/iriig.png' %}" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr style="border: none; height: 2px; background-color: rgba(250, 250, 250, 0.1); margin-top: 60px; margin-bottom: 60px;" />
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="left-image" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                  <a href="https://ira.univ-lemans.fr/fr/index.html" target="_blank">
+                    <img src="{% static 'assets/images/ira.jpg' %}" alt="" />
+                  </a>
+                </div>
+            </div>
+            
+              <div class="col-md-7">
+                <div class="right-text">
+                  <h4> Master 1 Actuariat 23-24</h4>
+                  <p>
+                    J'ai obtenu mon Master 1 en Actuariat à <span style="color: red;">l'Université du 
+                      Mans</span>, où j'ai acquis des compétences en <span style="color: red;">
+                        Assurance de personnes (Prévoyance Santé Épargne et Retraite), Actuariat Non-Vie, 
+                        Modèles Financiers, Méthodes de Monte Carlo, ALM</span>, ainsi qu'une maîtrise 
+                        de <span style="color: red;">VBA et SAS</span>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="left-text">
+                  <h4>Cycle ingénieur informatique spécialisé en Data Science 21-24</h4>
+                  <p>
+                    Au cours de mes études à <span style="color: red;">l'École Supérieure Privée 
+                      d'Ingénierie et de Technologie-ESPRIT</span>, j'ai développé un ensemble de
+                       compétences solides, comprenant la maîtrise des langages de programmation 
+                       tels que <span style="color: red;">Python, R et Java</span>. Mes cours et 
+                       projets m'ont permis d'acquérir une expérience pratique en
+                       de <span style="color: red;">Machine Learning et Deep Learning</span>, 
+                       ainsi que des connaissances pratiques sur des technologies de big data 
+                       comme <span style="color: red;">Spark et Hadoop</span>. De plus, j'ai
+                      perfectionné mes compétences en <span style="color: red;">Oracle</span> 
+                      pour la gestion de bases de données et utilisé <span style="color: red;">
+                      Spring Boot</span> pour créer des applications web évolutives.
+                  </p>  
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="right-image" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                  <a href="https://esprit.tn/" target="_blank">
+                  <img src="{% static 'assets/images/esprit.jpg' %}" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr style="border: none; height: 2px; background-color: rgba(250, 250, 250, 0.1); margin-top: 60px; margin-bottom: 60px;" />
+          
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="left-image" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                  <a href="https://fst.rnu.tn/en" target="_blank">
+                    <img src="{% static 'assets/images/fst.png' %}" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="right-text">
+                  <h4> Licence en informatique 18-21</h4>
+                  <p>
+                    Au cours de ce parcours à la <span style="color: red;">
+                    Faculté des Sciences de Tunis</span>, j'ai acquis des connaissances fondamentales dans 
+                    divers domaines, notamment <span style="color: red;">le développement web</span>, en
+                    <span style="color: red;"> réseau</span> et <span style="color: red;">la
+                    programmation</span>. Cet ensemble de compétences variées m'a permis d'aborder les 
+                    défis techniques avec une compréhension globale et d'appliquer ces concepts dans des
+                    projets concrets.
+                  </p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>En quoi suis-je bon ?</h2>
+            <div class="line-dec"></div>
+            <span
+              >J'ai perfectionné mes compétences en programmation, en science des données et en science actuarielle grâce à une combinaison de projets académiques et de stages, en appliquant mes connaissances théoriques à des problèmes concrets et en acquérant une expérience pratique dans ces domaines.</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon">
+                  <img src="{% static 'assets/images/python.png' %}" alt="Python Logo" style="width: 100px; height: auto;" />
+              </div>
+                <h4>Python</h4>
+                <p>
+                  Compétent en Python avec une vaste expérience dans l'utilisation de diverses bibliothèques,
+                  y compris <span style='color: red;'>NumPy, Pandas, SciPy et Matplotlib</span> pour la 
+                  manipulation, la visualisation et l'analyse des données. De plus, j'ai travaillé avec 
+                  <span style='color: red;'>TensorFlow et PyTorch</span> pour les réseaux de neurones, 
+                  <span style='color: red;'>Scikit-learn</span> pour l'apprentissage automatique, et 
+                  <span style='color: red;'>Django</span> pour le développement web.
+                  <br> 
+                  <br> 
+                  <br> 
+                  <br> 
+                  
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon">
+                  <img src="{% static 'assets/images/R.jfif' %}" alt="R Logo" style="width: 85px; height: 85px; border-radius: 40%;" />
+                </div>
+                <h4>R</h4>
+                <p>
+                  J'ai utilisé R dans l'analyse statistique, notamment pour les <span style='color: red;'>
+                    estimations paramétriques</span> et l'<span style='color: red;'>analyse de séries 
+                      temporelles</span>. Dans le domaine de l'assurance vie, j'ai appliqué R pour travailler 
+                      avec des <span style='color: red;'>tableaux de mortalité</span>. De plus, j'ai exploité R dans des méthodes de
+                        Monte Carlo, en utilisant des techniques de réduction de variance comme les <span style='color: red;'>
+                          copules, l'échantillonnage par importance et le quasi-Monte Carlo</span>. 
+                          Ces méthodes ont été appliquées à des cas d'utilisation tels que la prévision de la 
+                          valeur d'une option.
+                          
+                </p>
+                <br>
+                
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"><img src="{% static 'assets/images/prov.jfif' %}" alt="R Logo" style="width: 85px; height: 85px; border-radius: 40%;" /></div>
+                <h4>Provisionnement non vie</h4>
+                <p>
+                  Dans le domaine du provisionnement, j'applique diverses techniques 
+                  actuarielles pour estimer les charges futures en matière de sinistres. En utilisant des 
+                  méthodes telles que  <span style="color: red;">Chain Ladder et le loss ratio</span>,
+                  j'évalue l'adéquation des provisions. J'implémente également des méthodes stochastiques, y 
+                  compris les approches <span style="color: red;">Bootstrap et Mehr et Wüthrich</span>, pour 
+                  améliorer la précision et la robustesse de mes estimations et valider l'approche déterministe.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon">
+                  <img src="{% static 'assets/images/ml.jfif' %}" alt="R Logo" style="width: 85px; height: 85px; border-radius: 40%;" />
+                </div>
+                <h4>Machine &amp; Deep Learning</h4>
+                <p>
+                  J'ai commencé mon parcours avec des techniques d'<span style="color: red;">apprentissage 
+                    supervisé et non supervisé</span>, en progressant vers les architectures de deep learning.
+                    J'ai une expérience pratique avec des <span style="color: red;">ANN, CNN</span> et 
+                    <span style="color: red;">RNN</span>, et j'ai exploré des modèles avancés tels que les
+                    <span style="color: red;">GAN et les Transformers</span>, améliorant continuellement mes
+                    compétences dans ce domaine.
+                  
+                </p>
+                <br>
+                <br>
+             
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon">
+                  <img src="{% static 'assets/images/excel.png' %}" alt="exc Logo" style="width: 85px; height: 85px; border-radius: 40%;" />
+                </div>
+                <h4>Excel VBA</h4>
+                <p>
+                  J'ai largement utilisé Excel, en employant diverses <span style="color: red;">formules</span> et en créant des <span style="color: red;">tableaux croisés dynamiques</span> pour l'analyse des données. De plus, j'ai utilisé VBA pour <span style="color: red;">automatiser des tâches</span>, comme le calcul du ratio combiné et du ratio S/P pour évaluer la rentabilité.
+                   
+                </p>
+                <br>
+                   <br>
+                   <br>
+                   <br>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon">
+                  <img src="{% static 'assets/images/sas.jfif' %}" alt="exc Logo" style="width: 85px; height: 85px; border-radius: 40%;" />
+                </div>
+                <h4>SAS</h4>
+                <p>
+                  Au cours de mon dernier stage, j'ai acquis des compétences précieuses en SAS pour l'analyse et le reporting des données. J'ai utilisé des <span style="color: red;">procédures</span> telles que <span style="color: red;">SQL</span> pour la manipulation des données, <span style="color: red;">DATA</span> pour la gestion des ensembles de données, <span style="color: red;">UNIVARIATE</span> pour l'analyse statistique... Cette expérience m'a permis de gérer et d'interpréter efficacement des ensembles de données complexes.
+                   <br>
+                   <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Mes Travaux</h2>
+            <div class="line-dec"></div>
+            <span
+              >Dans cette section, je présente mes projets et stages passés, mettant en avant l'expérience pratique et les compétences que j'ai acquises dans divers domaines.</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>Tout</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="people"
+                    name="isotope-filter"
+                  />
+                  <span>Stages</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="nature"
+                    name="isotope-filter"
+                  />
+                  <span>Projets Académiques</span></label
+                >
+        
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="{% static 'assets/images/bnp.png' %}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{% static 'assets/images/bnp.png' %}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search-plus"></i
+                      ></a>
+                      <h4>Stagiaire - Service Inventaire Actuariat Epargne IFRS17  </h4>
+                      <span>Mettre à jour les statuts réglementaires du suivi des taux d'intérêt et des provisions mathématiques en épargne (FR20.01) exigé par l'ACPR et implémenter ses contrôles taxonomiques.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="{% static 'assets/images/projet.jpg' %}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{% static 'assets/images/projet.jpg' %}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search-plus"></i
+                      ></a>
+                      <h4>Analyse de rentabilité Auto </h4>
+                      <span>Création d'un tableau de bord pour analyser un portefeuille d'assurance automobile
+                        en utilisant Power BI pour la visualisation des données. Automatisation du calcul des
+                        indicateurs techniques clés, y compris la fréquence, le coût moyen, le ratio S/P et 
+                        le ratio combiné RC, à l'aide de VBA, améliorant ainsi l'efficacité de l'analyse des
+                        performances du portefeuille.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="{% static 'assets/images/esprit_st.jfif' %}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{% static 'assets/images/esprit_st.jfif' %}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search-plus"></i
+                      ></a>
+                      <h4>Stagiaire au sein de Graphics Team à Esprit Tech</h4>
+                      <span>Au cours de mon stage, j'ai étudié le risque de crédit et son cadre réglementaire IFRS 9 et Bâle 3, acquérant des connaissances sur les méthodes traditionnelles et avancées pour cette évaluation des risques. J'ai expérimenté divers modèles prédictifs pour classifier les scores de crédit des clients bancaires, améliorant ainsi ma compréhension de la prise de décision basée sur les données dans des contextes financiers.
+
+                      </span>
+                    </figcaption>
+                    <br>
+                    <br>
+                    <br>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  
+                      <video
+                          src="{% static 'assets/images/mindlite.mp4' %}"
+                          alt="MindLite Video"
+                          width="470" 
+                          height="320" 
+                          controls>
+                          Your browser does not support the video tag.
+                      </video>
+                      <figcaption style="text-align: center; margin-top: 10px;">
+                        <h7>MindLite : Plateforme éducative intelligente développée par 5 personnes</h7>
+                      </figcaption>
+                  
+              </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="{% static 'assets/images/shar.png' %}"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="{% static 'assets/images/shar.png' %}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search-plus"></i
+                      ></a>
+                      <h4>Shared : MarketPlace P2P réalisée par 6 membres</h4> <span>J'ai travaillé sur le développement des modules de réclamation et avis. Notre équipe a créé une application Desktop utilisant JavaFX, une application web avec Symfony, et une application mobile avec Codename One. Cette approche multi-plateforme nous a permis d'assurer une expérience fluide pour les utilisateurs sur divers appareils, facilitant la signalisation des problèmes, les avis des utilisateurs et les évaluations.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="{% static 'assets/images/sagem.png' %}"
+                      alt="sq-sample26"
+                      style="height: 400px; width: 450px; " 
+                    />
+                    <figcaption>
+                      <a
+                        href="{% static 'assets/images/sagem.png' %}"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ></a>
+                      <h4>Stagiaire à Sagemcom (BenArous) </h4>
+                      <span>Concevoir un pipeline automatisé pour le test de contrôle qualité des routeurs et des modems, en utilisant des expressions régulières pour le parsing des données à partir des fichiers journaux.
+                        Intégré des flux de travail d'extraction de données avec MongoDB pour le stockage structuré et Excel pour la génération de rapports.
+                        Développé un tableau de bord en utilisant ReactJS pour visualiser les résultats de nos extractions, améliorant ainsi l'efficacité opérationnelle et la prise de décision basée sur les données.</span>
+                    </figcaption>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                  </figure>
+                </div>
+
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact</h2>
+            <div class="line-dec"></div>
+            <span
+              >Si vous êtes à la recherche d'un alternant ou si vous avez des questions, n'hésitez pas à m'envoyer un message à travers cette rubrique.</span
+            >
+          </div>
+          <div class="row">
+            <div class="right-content">
+                <div class="container">
+                    {% if messages %}
+                        <div class="alert alert-dismissible fade show" role="alert">
+                            {% for message in messages %}
+                                <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    <form id="contact" action="{% url 'send_email' %}" method="post">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input
+                                        name="name"
+                                        type="text"
+                                        class="form-control"
+                                        id="name"
+                                        placeholder="Nom et Prénom"
+                                        required=""
+                                    />
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input
+                                        name="email"
+                                        type="text"
+                                        class="form-control"
+                                        id="email"
+                                        placeholder="Email..."
+                                        required=""
+                                    />
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <input
+                                        name="subject"
+                                        type="text"
+                                        class="form-control"
+                                        id="subject"
+                                        placeholder="Objet..."
+                                        required=""
+                                    />
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <textarea
+                                        name="message"
+                                        rows="6"
+                                        class="form-control"
+                                        id="message"
+                                        placeholder="Message..."
+                                        required=""
+                                    ></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="button">
+                                        Envoyer
+                                    </button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>        
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/isotope.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+    <script src="{% static 'assets/js/lightbox.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
